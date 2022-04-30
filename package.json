@@ -1,0 +1,24 @@
+{
+  "name": "webpack-bundle-order",
+  "version": "0.1.0",
+  "scripts": {
+    "build-dev": "yarn run -B webpack --mode=development",
+    "build-rel": "yarn run -B webpack --mode=production"
+  },
+  "main": "src/index.js",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSharperMantle/webpack-bundle-order.git"
+  },
+  "author": "CSharperMantle <baorong2005@126.com>",
+  "bugs": {
+    "url": "https://github.com/CSharperMantle/webpack-bundle-order/issues"
+  },
+  "homepage": "https://github.com/CSharperMantle/webpack-bundle-order#readme",
+  "packageManager": "yarn@3.2.0",
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
